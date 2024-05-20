@@ -1,0 +1,137 @@
+.barra-nav-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contenedor-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b32;
+}
+.consultar-producto {
+  display: flex;
+  justify-content: center;
+}
+.consulta-producto-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.consulta-producto-principal h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #1b1b32;
+}
+.contenedor-ingresa-datos h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #1b1b32;
+}
+.consulta-producto-principal div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.contenedor-izquierdo {
+  width: 50%;
+  height: 300px;
+}
+.contenedor-ingresa-datos {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  background-color: #e9e9e9;
+}
+.contenedor-ingresa-datos h2 {
+  margin: 0;
+  font-size: 30px;
+  color: #1b1b32;
+}
+.opciones-de-consulta {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor-muestra-datos {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.contenedor-datos {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  min-height: 300px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
+  background-color: #2a2a40;
+  overflow-y: auto;
+}
+.boton-consultar {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 200px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: blue;
+  transition: background-color 0.3s;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.boton-consultar:hover {
+  opacity: 0.8;
+}
+.contenedor-caja-por-clave {
+  height: 30px;
+}
+.caja-text-por-clave {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 200px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  transition: background-color 0.3s;
+  color: #1b1b32;
+}
+.caja-text-por-clave:focus {
+  outline: none; /* Para eliminar el contorno predeterminado al enfocar */
+  border-color: blue; /* Cambiar el color del borde cuando tiene el foco */
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Agregar una sombra alrededor del input */
+}
+.estructura-de-datos {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  min-height: 100px;
+  background-color: #e9e9e9;
+  color: #1b1b32;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
+  margin-top: 0;
+}
+.estructura-de-datos p {
+  margin: 5px 0 5px 20px ;
+  padding: 5px;
+}
+.contenedor-error-404 {
+  color: #e9e9e9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+}

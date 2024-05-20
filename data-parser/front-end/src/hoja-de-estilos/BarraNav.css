@@ -1,0 +1,104 @@
+/* Estilos.css */
+.inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  min-height: 500px;
+}
+.inicio h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #1b1b32;
+}
+nav {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  border-radius: 45px;
+  margin-bottom: 10px;
+}
+.menu-inicio {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.menu-opciones {
+  width: 50%;
+  height: 30px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+}
+li {
+  display: inline-block;
+  position: relative;
+}
+.menu-opciones li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.menu-opciones li ul li {
+  display: block;
+}
+.menu-opciones li ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+a {
+  padding: 10px 20px;
+  color: #1b1b32;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+}
+.menu-opciones li ul li {
+  display: block;
+}
+
+a:hover {
+  border-radius: 45px;
+  color: white;
+}
+
+.menu-opciones li:hover ul {
+  display: block;
+}
+.menu-opciones li ul li a:hover {
+  background-color: orange;
+  border-radius: 10px;
+}
+.consultar-producto {
+  min-height: 500px;
+}
+.registrar-producto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  min-height: 300px;
+}
+.actualiza {
+  min-height: 600px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
